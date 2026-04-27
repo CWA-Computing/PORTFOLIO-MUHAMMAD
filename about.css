@@ -1,20 +1,17 @@
-@import url("homepage.css");
-
+@import url("index.css");
 .about {
-  display: flex;
-  padding: 80px 50px;
-  justify-content: space-between;
+ display: flex;
+ justify-content: space-between;
+ padding: 80px 50px;
 }
-
 .boxes {
-  display: flex;
-  gap: 20px;
-  padding: 50px;
+ display: flex;
+ gap: 20px;
+ padding: 50px;
 }
-
 .boxes div {
-  flex: 1;
-  background: #111;
-  padding: 20px;
-  border-radius: 20px;
+ flex: 1;
+ background: #111;
+ padding: 20px;
+ border-radius: 20px;
 }
