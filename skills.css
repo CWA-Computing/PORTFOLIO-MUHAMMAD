@@ -1,12 +1,76 @@
-@import url("index.css");
-.grid {
- display: grid;
- grid-template-columns: repeat(3,1fr);
- gap: 20px;
- padding: 50px;
+body{margin:0;font-family:"Helvetica Neue";background:#0a0a0a;color:#fff;
+  background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+    url("skill.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-.grid div {
- background: #111;
- padding: 30px;
- border-radius: 20px;
+
+/* NAVBAR FIXED */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* FIXES ALIGNMENT */
+  padding: 20px 50px;
+  border-bottom: 1px solid #222;
 }
+
+/* NAME */
+nav h2 {
+  margin: 0;
+  font-weight: 500;
+}
+
+/* LINKS CONTAINER */
+nav div {
+  display: flex;
+  gap: 12px;
+}
+
+/* NAV BUTTONS */
+nav a {
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+/* HOVER EFFECT */
+nav a:hover {
+  background: #fff;
+  color: #000;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(255,255,255,0.2);
+}
+
+h1{padding:40px 50px;}
+
+
+
+
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+padding:50px;
+}
+
+.grid div{
+background:#111;
+padding:30px;
+border-radius:20px;
+transition:.3s;
+}
+
+.grid div:hover{
+transform:translateY(-8px);
+background:#1a1a1a;
+}
+
+footer{text-align:center;padding:20px;color:#666;}
