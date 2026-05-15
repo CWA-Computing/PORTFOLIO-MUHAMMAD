@@ -1,4 +1,7 @@
-body{margin:0;font-family:"Helvetica Neue";background:#0a0a0a;color:#fff;}
+body{margin:0;font-family:"Helvetica Neue";background:#0a0a0a;color:#fff;
+background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+    url("100.png");}
 
 /* NAVBAR FIXED */
 nav {
@@ -61,4 +64,49 @@ transform:translateY(-8px);
 background:#1a1a1a;
 }
 
+.goal-card {
+  flex: 1;
+  background: #111;
+  padding: 30px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.goal-card:hover {
+  transform: translateY(-8px);
+  background: #1a1a1a;
+}
+
+/* IMAGE ROW */
+.goal-images {
+  display: flex;
+  gap: 20px;
+
+  padding: 0 50px 50px 50px;
+}
+
+/* IMAGE BOX */
+.image-box {
+  flex: 1;
+  height: 220px;
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  background: #111;
+}
+
+/* IMAGE */
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: 0.3s;
+}
+
+/* HOVER */
+.image-box:hover img {
+  transform: scale(1.08);
+}
 footer{text-align:center;padding:20px;color:#666;}

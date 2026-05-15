@@ -1,4 +1,7 @@
-body{margin:0;font-family:"Helvetica Neue";background:#0a0a0a;color:#fff;}
+body{margin:0;font-family:"Helvetica Neue";background:#0a0a0a;color:#fff;
+background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+    url("iceman.png");}
 
 /* NAVBAR FIXED */
 nav {
